@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+
+#website_header {
+	margin-top: 1px;
+  background-color: #b6e89e;
+	text-align: center;
+	color: Black;
+	font-size: 50px;
+	font-family: arial Black;
+	}
+	ul {
+		padding-top: 10px;
+		float: right;
+		margin-right: 1%;
+	}
+	li {
+		padding-top: 40px;
+		padding-right: 20px;
+	}
+	@media screen and (max-width: 1039px){
+		#big_wrapper img {
+			max-width: 70%;
+  		height: auto;
+
+		}
+		#big_wrapper li {
+			font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
+		}
+	}
+#big_wrapper img{
+	height: 500px;
+	width: 1000px;
+}
+
+	#big_wrapper {
+	height: 500px;
+	background-color: #b1e89e;
+	font-size: 25px;
+}
+
+#text1{ font-size: 22px;
+	background-color:#ffeaa7;
+	height: 450px;
+	padding: 0px;
+	font-family: Arial Black;
+
+
+}
+#text2 {
+	font-size: 17px;
+	font-family: Arial Blac
+	padding: 10px;
+	height: 650px;
+	background-color: #ffeaa7;
+
+}
+@media screen and (max-width: 1039px){
+
+	#text2{
+		font-size-adjust: auto;
+		font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
+		height: auto;
+
+	}
+}
+.text_para{
+	color: #9ee8e2
+	font-size: 20px;
+	font-family:Georgia pro Black;
+	padding: 10px;
+
+}
+#big_wrapper img{
+	border: solid 4px white;
+}
+
+.svg_icon{
+	float: left;
+	display: inline-block;
+}
+
+#contact{
+	padding-left: 150px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	font-size: 17px;
+}
+#tider{
+
+  padding-top: 2px;
+	font-size: 20px;
+	float: right;
+	display: inline-block;
+
+}
+
+#footer{
+	position: relative;
+	border: solid 2px black;
+	background-color:#55efc4;
+	height: 150px;
+	font-size: 50px;
+	font color: #0652DD;
+	font-family: Arial Black;
+	text-align:center;
+	}
+	#tider a{
+		position: absolute;
+		bottom: 25px;
+		right: 170px;
+		border: 1px solid black;
+		color: black;
+		text-decoration: none;
+		float:
+
+	}
+	@media screen and (max-width: 1039px){
+		#footer{
+			height: auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			font-size: auto;
+
+		}
+		.svg_icon{
+
+		}
+
+		#tider,#contact,#tider a{
+			font-size: auto;
+			overflow: hidden;
+
+		}
+		#tider a{
+			right: auto;
+			bottom: 0px;
+		}
+	}
